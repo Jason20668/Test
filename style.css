@@ -27,7 +27,7 @@
 }
 
 .nav-link:hover {
-    color: #ffffff;
+    color: #ff8383;
 }
 
 
@@ -38,24 +38,8 @@
 }
 
 body, html {
-    height: 100%;
-}
-
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgs/block5.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+background-image: linear-gradient(#ffecd2, #fcb69f);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
 }
