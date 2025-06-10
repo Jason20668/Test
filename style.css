@@ -37,9 +37,10 @@
     text-decoration: none;
 }
 
-body, html {
-background-image: linear-gradient(#ffecd2, #fcb69f);
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
+html, body {
+  height: 100%;
+  background-image: linear-gradient(#ffecd2, #fcb69f);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
